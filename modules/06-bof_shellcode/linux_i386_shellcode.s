@@ -1,0 +1,10 @@
+push 0x68732f
+push 0x6e69622f
+mov ebx, esp
+xor edx, edx
+xor ecx, ecx
+push 0xb
+pop eax
+int 0x80
+
+// \x68\x2f\x73\x68\x00\x68\x2f\x62\x69\x6e\x89\xe3\x31\xd2\x31\xc9\x6a\x0b\x58\xcd\x80

