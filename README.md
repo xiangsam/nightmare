@@ -71,9 +71,9 @@ Here is the index for all of the content in this course. Feel free to go through
 ## General pt 0 Stardust Challenges
 
 #### 9.) Bad Seed     
--  [ ]  h3_time      
--  [ ] hsctf19_tuxtalkshow        
--  [ ]  sunshinectf17_prepared    
+-  [x]  h3_time      
+-  [x] hsctf19_tuxtalkshow        
+-  [x]  sunshinectf17_prepared    
 
 
 #### 10.) Format strings     
